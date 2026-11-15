@@ -1,0 +1,6 @@
+Q1: What happened to a file written inside a container that has no volume, when the container was deleted?
+A1: The file will be permanently lost and we  will not be able to recover it
+Q2: Why does the web service in your stack have no published port?
+A2: The web service is private 
+Q3: What is the difference between an image and a container, in one sentence?
+A3: An image is only to be read, not modifiable, while a container is the editable version of that image. 
